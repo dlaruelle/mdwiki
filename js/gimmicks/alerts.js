@@ -24,8 +24,8 @@
 
     function get_alert_type(text) {
         var note = ['note', 'beachte', 'nota' ];
-        var warning = [ 'achtung', 'attention', 'warnung', 'warning', 'atención', 'guarda', 'advertimiento', 'attenzione', 'suggerimento' ];
-        var hint = ['hint', 'tipp', 'tip', 'hinweis', 'conseil';
+        var warning = [ 'achtung', 'attention', 'warnung', 'warning', 'atención', 'guarda', 'advertimiento', 'attenzione' ];
+        var hint = [ 'hint', 'tipp', 'tip', 'hinweis', 'conseil', 'suggerimento' ];
         var exp = note.concat(warning);
         exp = exp.concat(hint);
         var txt = text.toLowerCase ();
